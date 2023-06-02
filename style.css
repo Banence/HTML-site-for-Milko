@@ -1,70 +1,69 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    height: 100vh;
     background: linear-gradient(to right, rgb(50, 78, 168), rgb(62, 50, 168))
 }
 
-
-.container{
-    background-color: rgb(213, 231, 240);
-    border-radius: 8px;
-    box-shadow: 0px 0px 20px black;
-    padding: 30px;
-    width: 510px;
-}
-
-#logintext{
-    font-size: 40px;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-    color:rgb(23, 50, 138);
-}
-
-#username,
-#password{
-    width: 100%;
-    margin-bottom: 16px;
-    border: none;
-    border-radius: 8px;
-    font-size: 30px;
-    padding: 6px;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-#username:focus,
-#password:focus{
-    outline: none;
-    box-shadow: 0 0 8px rgb(23, 50, 138);
-}
-
-
-.btn{
+.navbar {
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color: rgb(213, 231, 240);
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px black;
 }
-
-
-#loginbutton{
-    font-size: 30px;
-    color:rgb(50, 78, 168);
+  
+.navbar a {
+    float: left;
+    color: black;
+    font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif;
-    padding: 10px;
-    width: 40%;
-    border-radius: 8px;
-    border: none;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    letter-spacing: 1px;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
 }
-
-#loginbutton:hover{
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn {
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    border: none;
     outline: none;
-    box-shadow: 0px 0px 8px rgb(23, 50, 138);
+    background-color: inherit;
+    margin: 0;
+    padding: 16px;
+}
+  
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(37, 81, 204);
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 0px 6px black;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-content a:hover {
+    background-color: #c3c3c3;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
 }

@@ -2,10 +2,10 @@ function logincredentialscheck(){
     const username = document.getElementById("username").value;
     const password = document.getElementById("password").value;
 
-    if(username === 'admin' && password === '12345678')
+    if(username === 'admin' && password === 'password')
     {
-        alert("Successful");
+        window.location.href = "home.html";
     }else{
-        alert("Not successful");
+        document.getElementById("wrongcredentialstext").innerHTML = "Unknown credentials"
     }
 }
