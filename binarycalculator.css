@@ -1,0 +1,138 @@
+body{
+    background: linear-gradient(to right, rgb(50, 78, 168), rgb(62, 50, 168))
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    color:black;
+}
+
+.container{
+    padding: 20px;
+    background-color: rgb(213, 231, 240);
+    border-radius: 15px;
+    height: 60vh;
+    box-shadow: 0px 0px 20px rgb(62, 50, 168);
+}
+
+.firstnumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.secondnumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+input{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px black;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input:hover{
+    box-shadow: 0px 0px 8px rgb(23, 50, 138);
+}
+
+.operation{
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    margin-left: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 0px 0px 6px black;
+    padding: 4px;
+}
+
+select:hover{
+    box-shadow: 0px 0px 6px rgb(23, 50, 138);
+    cursor: pointer;
+}
+
+label{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    box-shadow: 0px 0px 4px black;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    width: 150px;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+#calcbtn:hover{
+    background-color: rgb(27, 181, 68);
+    cursor: pointer;
+}
+
+#resetbtn:hover{
+    background-color: rgb(214, 59, 32);
+    cursor: pointer;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#Result{
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    box-shadow: 0px 0px 4px black;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    resize: none;
+    min-height: 14vh;
+}
+
+
+#incorrectinput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: rgb(181, 40, 56);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    font-style: italic;
+}
