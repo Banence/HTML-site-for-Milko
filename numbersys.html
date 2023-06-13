@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number system converter</title>
+    <link rel="stylesheet" href="numbersys.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="numbersys.js"></script>
+    <h1>Number system converter</h1>
+    <div class="container">
+        <div class="Selector">
+            <label for="Selector">Choose the type of convertion</label>
+            <select name="Selector" id="Selector">
+                <option value="Decimal2binary">Decimal to binary</option>
+                <option value="Binary2decimal">Binary to decimal</option>
+                <option value="Decimal2hex">Decimal to hexadecimal</option>
+                <option value="Hex2decimal">Hexadecimal to decimal</option>
+                <option value="Binary2hex">Binary to hexadecimal</option>
+                <option value="Hex2binary">Hexadecimal to binary</option>
+            </select>
+        </div>
+        <div class="inputnumber">
+            <input id="number" placeholder="Nubmer you want to convert">
+        </div>
+        <div class="btn">
+            <button onclick="convert()" id="convertbtn">Convert</button>
+            <button onclick="reset()" id="resetbtn">Reset</button>
+        </div>
+        <div class="result">
+            <textarea id="Result" cols="50" readonly>Converted number:  </textarea>
+        </div>
+        <div id="incorrectinput"></div>
+
+
+    </div>
+</body>
+</html>
