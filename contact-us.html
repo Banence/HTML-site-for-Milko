@@ -8,8 +8,17 @@
     <title>Contact us</title>
     <script src="https://kit.fontawesome.com/7c8ac7d596.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("xhZWr1Nkf1NSCWe3Q");
+        })();
+    </script>
 </head>
 <body>
+    <script src="emailjs.js"></script>
     <div class="navbar">
         <a href="home.html">Home</a>
         <div class="dropdown">
@@ -25,7 +34,7 @@
     </div> 
 
     <div class="container">
-            <form>
+        <div class="form">
                 <div class="input-group">
                     <input type="text" id="name" required>
                     <label for="name"><i class="fa-solid fa-user"></i> Your Name </label>    
@@ -38,8 +47,12 @@
                     <textarea id="message" rows="8"> </textarea>
                     <label for="message"><i class="fa-solid fa-message"></i> Your Message</label>
                 </div>
-                    <button onclick="sendMail()" type="Send" id="sendbutton"><i class="fa-solid fa-paper-plane"></i> SEND</button>  
-            </form>     
+                <button type="button" id="sendbutton" onclick="sendMail()">
+                    <i class="fa-solid fa-paper-plane"> </i>
+                    <span> SEND</span>
+                </button> 
+                <div id="incorrectinput"></div> 
+        </div>
     </div>
 </body>
 </html>
