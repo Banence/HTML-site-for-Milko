@@ -38,6 +38,7 @@ function sendMail() {
       console.log(res);
       sendButton.innerHTML = '<i class="fa-solid fa-paper-plane"></i><span>  SEND</span>'; // Change button HTML back to default
       incorrectinput.innerHTML = "";
+      window.location.href = "thanksforsupport.html";
     })
     .catch(err => {
       console.log(err);
