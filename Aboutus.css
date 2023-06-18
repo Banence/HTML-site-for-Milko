@@ -98,7 +98,7 @@ section {
 }
   
 .person:hover {
-    transform: translateY(-5px);
+    transform: translateY(-15px);
 }
   
 .social-links {
