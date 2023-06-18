@@ -34,17 +34,17 @@ p{
 }
 
 #returntohome{
-    padding: 20px;
+    padding: 15px;
     border: none;
     border-radius: 3px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;
     box-shadow: 0px 0px 8px black;
     transition: 0.8s;
+    width: 40%;
 }
 
 #returntohome:hover{
-    background: var(--clr);
     box-shadow: 0px 0px 35px var(--clr);
     letter-spacing: 1px;
     cursor: pointer;
@@ -90,7 +90,7 @@ p{
   
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: rgb(37, 81, 204);
+    background-color: #1e9bff;
 }
   
 .dropdown-content {
@@ -184,7 +184,7 @@ input:valid~label,
 textarea:focus~label,
 textarea:valid~label{
     top:-35px;
-    font-size:14px;
+    font-size: 16px;
 }
 
 #incorrectinput{
