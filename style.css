@@ -212,33 +212,6 @@ textarea:valid~label{
     color:#9100EB;
     font-weight:200vh;
     margin-left: 20px;
-<<<<<<< HEAD
-=======
-
-}
-.hero-img{
-    float:left;
-    margin-right:10vh;
-    margin-bottom:1;
-    
-}
-#home-but{
-    padding: 10px 20px;
-    color:#9100EB;
-    border:2px solid #9100EB;
-    background:none;
-    margin-left:20px;
-    border-radius:4px;
-    margin-right:50px;
-   
-  
-}
-#home-but:hover{
-    background-color: #1e9bff;
-    cursor:pointer;
-}
->>>>>>> 6d7a007f928c257117a4b57f6bb6f5c8c57670c8
-
 }
 .hero-img{
     float:left;
