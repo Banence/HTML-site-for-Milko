@@ -4,13 +4,12 @@ body{
 
 
 h1{
-    text-align: center;
-    font-family: 'Roboto Condensed', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
 }
 
 h2{
-    text-align: center;
+   text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 40px;
 }
@@ -23,7 +22,7 @@ h2{
 }
 
 p{
-    text-align: center;
+    
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 30px;
 }
@@ -198,4 +197,41 @@ textarea:valid~label{
     margin-top: 20px;
     font-style: italic;
 }
+.my-container{
+    height:100%;
+    width:100%;
+    position:relative;
+  text-align: center;
+   
+    flex-direction: column;
+   
+ 
+}
+.hero-text{
+    margin-top:20vh;
+    color:#9100EB;
+    font-weight:200vh;
+    margin-left: 20px;
 
+}
+.hero-img{
+    float:left;
+    margin-right:10vh;
+    margin-bottom:1;
+    
+}
+#home-but{
+    padding: 10px 20px;
+    color:#9100EB;
+    border:2px solid #9100EB;
+    background:none;
+    margin-left:20px;
+    border-radius:4px;
+    margin-right:50px;
+   
+  
+}
+#home-but:hover{
+    background-color: #1e9bff;
+    cursor:pointer;
+}
