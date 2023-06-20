@@ -1,5 +1,17 @@
 body{
     background: linear-gradient(to right, rgb(62, 50, 168), rgb(50, 78, 168));
+    animation: Animation 1s ease-in-out;
+}
+
+@keyframes Animation {
+    0% {
+      opacity: 0;
+      transform: scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
 }
 
 h1{
@@ -251,15 +263,4 @@ img{
 #read-more-btn:hover {
     font-style: italic;
     cursor: pointer;
-}
-  
-
-footer{
-    padding: 20px;
-    text-align: center;
-    color: white;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }

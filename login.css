@@ -4,9 +4,21 @@ body{
     align-items: center;
     font-family: Arial, sans-serif;
     height: 100vh;
-    background: linear-gradient(to right, rgb(50, 78, 168), rgb(62, 50, 168))
+    background: linear-gradient(to right, rgb(50, 78, 168), rgb(62, 50, 168));
+    animation: Animation 1s ease-in-out;
 }
 
+@keyframes Animation{
+    0%{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
 .container{
     background-color: rgb(213, 231, 240);
