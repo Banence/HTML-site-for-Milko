@@ -23,7 +23,7 @@
         </div>
         <a href="contact-us.html">Contact Us</a>
         <a href="Aboutus.html">About Us</a>
-        <a href="login.html">Sign Out</a>
+        <a href="login.php">Sign Out</a>
     </div> 
     <div class="my-container">
       <div class="hero-img">
